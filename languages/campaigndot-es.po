@@ -1,0 +1,721 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: campaignDot\n"
+"POT-Creation-Date: 2024-01-05 11:33+0100\n"
+"PO-Revision-Date: 2024-01-05 11:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: campaigndot.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/accordion.php:241 template/wes_templates.php:280
+msgid "Copy"
+msgstr "Copiar"
+
+#: admin/menu/wes_bannermenu.php:11
+msgid "Banner URL"
+msgstr "Banner URL"
+
+#: admin/menu/wes_bannermenu.php:12
+#, fuzzy
+msgid "The URL to redirect on banner click"
+msgstr "La URL a redirigir al hacer clic en el banner"
+
+#: admin/menu/wes_bannermenu.php:14
+msgid "Banner title"
+msgstr "Título de Banner"
+
+#: admin/menu/wes_bannermenu.php:15
+#, fuzzy
+msgid "The title of banner"
+msgstr "El título de la pancarta"
+
+#: admin/menu/wes_bannermenu.php:53 admin/menu/wes_mainmenu.php:140
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: admin/menu/wes_bannermenu.php:60
+#, fuzzy
+msgid "Banner management"
+msgstr "Gestión de pancartas"
+
+#: admin/menu/wes_bannermenu.php:82
+#, fuzzy
+msgid "Banner display"
+msgstr "Pancarta"
+
+#: admin/menu/wes_bannermenu.php:85
+#, fuzzy
+msgid "Check for displaying banner on emails"
+msgstr "Comprobar la visualización de banners en los correos electrónicos"
+
+#: admin/menu/wes_bannermenu.php:95
+#, fuzzy
+msgid "Static banner mode"
+msgstr "Modo banner estático"
+
+#: admin/menu/wes_bannermenu.php:101
+#, fuzzy
+msgid "Dynamic banner mode"
+msgstr "Modo de banner dinámico"
+
+#: admin/menu/wes_bannermenu.php:101
+#, fuzzy
+msgid " (Pro version only)"
+msgstr " (sólo versión Pro)"
+
+#: admin/menu/wes_bannermenu.php:120
+#, fuzzy
+msgid "Send Banner"
+msgstr "Enviar Banner"
+
+#: admin/menu/wes_bannermenu.php:123 admin/wes_metabox_posts.php:85
+msgid "Change banner"
+msgstr "Cambiar Banner"
+
+#: admin/menu/wes_bannermenu.php:128
+#, fuzzy
+msgid "Static banner"
+msgstr "Banner estático"
+
+#: admin/menu/wes_bannermenu.php:131 admin/wes_menu.php:48
+msgid "Banner"
+msgstr "Banner"
+
+#: admin/menu/wes_bannermenu.php:138 admin/menu/wes_bannermenu.php:144
+#: admin/menu/wes_mainmenu.php:188 admin/menu/wes_mainmenu.php:194
+#: admin/wes_avatar.php:109 admin/wes_avatar.php:115
+#: admin/wes_metabox_posts.php:98
+msgid "Remove"
+msgstr "Eliminar"
+
+#: admin/menu/wes_bannermenu.php:139 admin/menu/wes_mainmenu.php:189
+#: admin/wes_avatar.php:110
+msgid "Edit"
+msgstr "Editar"
+
+#: admin/menu/wes_bannermenu.php:154
+#, fuzzy
+msgid "Upload new Banner"
+msgstr "Cargar nuevo Banner"
+
+#: admin/menu/wes_bannermenu.php:156 admin/menu/wes_mainmenu.php:206
+#: admin/wes_avatar.php:127
+#, fuzzy
+msgid "Use external URL"
+msgstr "Utilizar una URL externa"
+
+#: admin/menu/wes_bannermenu.php:171
+#, fuzzy
+msgid "Upload a custom image as a Banner or use a URL to a pre-existing image."
+msgstr ""
+"Cargue una imagen personalizada como Banner o utilice una URL a una imagen "
+"preexistente."
+
+#: admin/menu/wes_bannermenu.php:172 admin/menu/wes_mainmenu.php:222
+#, fuzzy
+msgid "Update to save your changes."
+msgstr "Actualizar para guardar los cambios."
+
+#: admin/menu/wes_bannermenu.php:209
+#, fuzzy
+msgid "Dynamic banner"
+msgstr "Banner dinámico"
+
+#: admin/menu/wes_bannermenu.php:210
+#, fuzzy
+msgid "Dynamic banners are only allowed on Pro version of CampaignDot."
+msgstr ""
+"Los banners dinámicos sólo están permitidos en la versión Pro de CampaignDot."
+
+#: admin/menu/wes_mainmenu.php:16
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/menu/wes_mainmenu.php:17
+msgid "Your company name"
+msgstr "El nombre de tu compañía"
+
+#: admin/menu/wes_mainmenu.php:22
+msgid "Address (line 1)"
+msgstr "Dirección (línea 1)"
+
+#: admin/menu/wes_mainmenu.php:27
+msgid "Address (line 2)"
+msgstr "Dirección (línea 2)"
+
+#: admin/menu/wes_mainmenu.php:32
+msgid "Zip code"
+msgstr "Código postal"
+
+#: admin/menu/wes_mainmenu.php:38
+msgid "City"
+msgstr "Ciudad"
+
+#: admin/menu/wes_mainmenu.php:39
+msgid "Your company address"
+msgstr "Dirección de tu empresa"
+
+#: admin/menu/wes_mainmenu.php:44 admin/wes_extrafields.php:46
+msgid "Phone"
+msgstr "Teléfono"
+
+#: admin/menu/wes_mainmenu.php:45
+#, fuzzy
+msgid "Your company standard phone"
+msgstr "El teléfono estándar de su empresa"
+
+#: admin/menu/wes_mainmenu.php:50
+#, fuzzy
+msgid "Web site"
+msgstr "Sitio web"
+
+#: admin/menu/wes_mainmenu.php:51
+#, fuzzy
+msgid "Your company web site"
+msgstr "Sitio web de su empresa"
+
+#: admin/menu/wes_mainmenu.php:56
+msgid "eMail"
+msgstr "Correo Electrónico"
+
+#: admin/menu/wes_mainmenu.php:57
+#, fuzzy
+msgid "The generic email of your company"
+msgstr "El correo electrónico genérico de su empresa"
+
+#: admin/menu/wes_mainmenu.php:62
+msgid "Legal Notice"
+msgstr "Aviso legal"
+
+#: admin/menu/wes_mainmenu.php:63
+#, fuzzy
+msgid "The text of the legal notice attached to emails"
+msgstr "El texto del aviso legal adjunto a los correos electrónicos"
+
+#: admin/menu/wes_mainmenu.php:68
+msgid "Primary color"
+msgstr "Color primario"
+
+#: admin/menu/wes_mainmenu.php:69
+#, fuzzy
+msgid "Your company primary color"
+msgstr "El color principal de su empresa"
+
+#: admin/menu/wes_mainmenu.php:75
+msgid "Secondary color"
+msgstr "Color secundario"
+
+#: admin/menu/wes_mainmenu.php:76
+#, fuzzy
+msgid "Your company secondary color"
+msgstr "Color secundario de su empresa"
+
+#: admin/menu/wes_mainmenu.php:83
+#, fuzzy
+msgid "Icon option"
+msgstr "Opción de icono"
+
+#: admin/menu/wes_mainmenu.php:84
+#, fuzzy
+msgid "Choose a design for your social icons."
+msgstr "Elige un diseño para tus iconos sociales."
+
+#: admin/menu/wes_mainmenu.php:92
+#, fuzzy, php-format
+msgid "The %s URL of your company"
+msgstr "La URL %s de su empresa"
+
+#: admin/menu/wes_mainmenu.php:149 admin/wes_menu.php:39 admin/wes_menu.php:40
+#, fuzzy
+msgid "Corporate infos"
+msgstr "Información corporativa"
+
+#: admin/menu/wes_mainmenu.php:163
+#, fuzzy
+msgid "Send Logo"
+msgstr "Enviar logotipo"
+
+#: admin/menu/wes_mainmenu.php:166
+msgid "Change Logo"
+msgstr "Cambiar el logotipo"
+
+#: admin/menu/wes_mainmenu.php:177
+#, fuzzy
+msgid "Design preferences"
+msgstr "Preferencias de diseño"
+
+#: admin/menu/wes_mainmenu.php:181
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/menu/wes_mainmenu.php:204
+#, fuzzy
+msgid "Upload new Logo"
+msgstr "Cargar nuevo logotipo"
+
+#: admin/menu/wes_mainmenu.php:221
+#, fuzzy
+msgid "Upload a custom image as a Logo or use a URL to a pre-existing image."
+msgstr ""
+"Cargue una imagen personalizada como Logotipo o utilice una URL a una imagen "
+"preexistente."
+
+#: admin/menu/wes_mainmenu.php:233
+msgid "Social icons design"
+msgstr "Diseño de iconos sociales"
+
+#: admin/menu/wes_mainmenu.php:286
+#, fuzzy
+msgid "Deactivate Base64 encoding for banners"
+msgstr "Desactivar la codificación Base64 para banners"
+
+#: admin/menu/wes_mainmenu.php:294
+msgid "Company details"
+msgstr "Detalles de la compañía"
+
+#: admin/menu/wes_mainmenu.php:322
+msgid "Social networks"
+msgstr "Redes sociales"
+
+#: admin/template/wes_debug.php:10
+#, fuzzy
+msgid "Some debug infos"
+msgstr "Algunas informaciones de depuración"
+
+#: admin/template/wes_debug.php:11
+#, fuzzy
+msgid "Essentially developped for EDD debugging ..."
+msgstr "Esencialmente desarrollado para la depuración EDD ..."
+
+#: admin/template/wes_help.php:8
+msgid "help"
+msgstr "ayuda"
+
+#: admin/template/wes_pro.php:9
+msgid "PRO version"
+msgstr "Versión Pro"
+
+#: admin/template/wes_pro.php:10
+#, fuzzy
+msgid ""
+"This is the PRO version of CampaignDot, including statistics, dynamic "
+"banner, etc..."
+msgstr ""
+"Esta es la versión PRO de CampaignDot, incluyendo estadísticas, banner "
+"dinámico, etc..."
+
+#: admin/template/wes_pro.php:11
+#, fuzzy
+msgid ""
+"View <a href=\"http://campaigndot.com/\">the CampaignDot site</a> for more "
+"informations."
+msgstr ""
+"Para más información, visite <a href=\"http://campaigndot.com/\">el sitio "
+"web de CampaignDot</a>."
+
+#: admin/wes_avatar.php:57
+#, fuzzy
+msgid "Send picture"
+msgstr "Enviar foto"
+
+#: admin/wes_avatar.php:60
+#, fuzzy
+msgid "Change picture"
+msgstr "Cambiar imagen"
+
+#: admin/wes_avatar.php:76
+#, fuzzy
+msgid "Signature builder"
+msgstr "Constructor de firmas"
+
+#: admin/wes_avatar.php:96
+msgid "User profile"
+msgstr "Perfil del usuario"
+
+#: admin/wes_avatar.php:97
+#, fuzzy
+msgid "Your user profile should be 200px X 200px."
+msgstr "Tu perfil de usuario debe ser de 200px X 200px."
+
+#: admin/wes_avatar.php:125
+msgid "Upload new image"
+msgstr "Subir nueva imagen"
+
+#: admin/wes_avatar.php:144
+msgid "Rounded"
+msgstr "Redondeado"
+
+#: admin/wes_avatar.php:147
+#, fuzzy
+msgid "Text-size"
+msgstr "Tamaño del texto"
+
+#: admin/wes_avatar.php:187
+msgid "Quick links"
+msgstr "Enlaces rápidos"
+
+#: admin/wes_avatar.php:190 campaigndot.php:262 campaigndot.php:278
+msgid "Profile page"
+msgstr "Página de perfil"
+
+#: admin/wes_avatar.php:190 campaigndot.php:263 campaigndot.php:286
+#, fuzzy
+msgid "Template page"
+msgstr "Página de plantillas"
+
+#: admin/wes_extrafields.php:26
+msgid "User Detail"
+msgstr "Detalle de Usuario"
+
+#: admin/wes_extrafields.php:31
+msgid "Position"
+msgstr "Posición"
+
+#: admin/wes_extrafields.php:33
+#, fuzzy
+msgid "Your corporate position"
+msgstr "Su posición en la empresa"
+
+#: admin/wes_extrafields.php:39
+#, fuzzy
+msgid "GSM"
+msgstr "GSM"
+
+#: admin/wes_extrafields.php:41
+#, fuzzy
+msgid "Format: +33 (0) 6 00 00 00 00"
+msgstr "Formato: +33 (0) 6 00 00 00 00"
+
+#: admin/wes_extrafields.php:48
+#, fuzzy
+msgid "Format: +33 (0) 1 00 00 00"
+msgstr "Formato: +33 (0) 1 00 00 00"
+
+#: admin/wes_extrafields.php:54
+msgid "Skype"
+msgstr "Skype"
+
+#: admin/wes_extrafields.php:56
+#, fuzzy
+msgid "Your Skype ID"
+msgstr "Tu nombre de usuario de Skype"
+
+#: admin/wes_extrafields.php:63
+#, fuzzy
+msgid "Select banner categories"
+msgstr "Seleccionar categorías de banners"
+
+#: admin/wes_extrafields.php:65
+#, fuzzy
+msgid "Include only following categories"
+msgstr "Incluya sólo las siguientes categorías"
+
+#: admin/wes_extrafields.php:67
+#, fuzzy
+msgid "Exclude following categories"
+msgstr "Excluye las siguientes categorías"
+
+#: admin/wes_menu.php:21 admin/wes_menu.php:31
+#, fuzzy
+msgid "CampaignDot Help"
+msgstr "Ayuda de CampaignDot"
+
+#. Author of the plugin/theme
+#: admin/wes_menu.php:22
+#, fuzzy
+msgid "CampaignDot"
+msgstr "CampaignDot"
+
+#: admin/wes_menu.php:32
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/wes_menu.php:47
+#, fuzzy
+msgid "Campain banner"
+msgstr "Banner de campaña"
+
+#: admin/wes_menu.php:57
+#, fuzzy
+msgid "Debug info page"
+msgstr "Página de información de depuración"
+
+#: admin/wes_menu.php:58
+msgid "Debug info"
+msgstr "Información de depuración"
+
+#: admin/wes_metabox_posts.php:16
+#, fuzzy
+msgid "CampaignDot Banner"
+msgstr "Banner de CampaignDot"
+
+#: admin/wes_metabox_posts.php:49
+#, fuzzy
+msgid "firstDay: 0"
+msgstr "primerDía: 0"
+
+#: admin/wes_metabox_posts.php:50
+#, fuzzy
+msgid ""
+"dayNames: [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", "
+"\"Friday\", \"Saturday\"]"
+msgstr ""
+"dayNames: [\"domingo\", \"lunes\", \"martes\", \"miércoles\", \"jueves\", "
+"\"viernes\", \"sábado\"]"
+
+#: admin/wes_metabox_posts.php:51
+#, fuzzy
+msgid "dayNamesMin: [ \"Su\", \"Mo\", \"Tu\", \"We\", \"Th\", \"Fr\", \"Sa\" ]"
+msgstr ""
+"dayNamesMin: [ \"Su\", \"Mo\", \"Tu\", \"We\", \"Th\", \"Fr\", \"Sa\" ]"
+
+#: admin/wes_metabox_posts.php:52
+#, fuzzy
+msgid ""
+"dayNamesShort: [ \"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", "
+"\"Sat\" ]"
+msgstr ""
+"dayNamesShort: [ \"Dom\", \"Lun\", \"Mar\", \"Mie\", \"Jue\", \"Vie\", "
+"\"Sab\" ]"
+
+#: admin/wes_metabox_posts.php:53
+#, fuzzy
+msgid ""
+"monthNames: [ \"January\", \"February\", \"March\", \"April\", \"May\", "
+"\"June\", \"July\", \"August\", \"September\", \"October\", \"November\", "
+"\"December\" ]"
+msgstr ""
+"monthNames: [ \"enero\", \"febrero\", \"marzo\", \"abril\", \"mayo\", "
+"\"junio\", \"julio\", \"agosto\", \"septiembre\", \"octubre\", "
+"\"noviembre\", \"diciembre\" ]"
+
+#: admin/wes_metabox_posts.php:54
+#, fuzzy
+msgid ""
+"monthNamesShort: [ \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", "
+"\"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\" ]"
+msgstr ""
+"monthNamesShort: [ \"Ene\", \"Feb\", \"Mar\", \"Abr\", \"May\", \"Jun\", "
+"\"Jul\", \"Ago\", \"Sep\", \"Oct\", \"Nov\", \"Dic\" ]"
+
+#: admin/wes_metabox_posts.php:83
+#, fuzzy
+msgid "Choose Banner"
+msgstr "Elija Banner"
+
+#: admin/wes_metabox_posts.php:91
+msgid "Choose a banner"
+msgstr "Crear un banner"
+
+#: admin/wes_metabox_posts.php:121
+#, fuzzy
+msgid "Select publication dates"
+msgstr "Seleccione las fechas de publicación"
+
+#: admin/wes_metabox_posts.php:126
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: admin/wes_metabox_posts.php:130 admin/wes_metabox_posts.php:159
+#, fuzzy
+msgid "m/d/Y"
+msgstr "m/d/Y"
+
+#: admin/wes_metabox_posts.php:144 admin/wes_metabox_posts.php:173
+#, fuzzy
+msgid "Format : "
+msgstr "Formato :"
+
+#: admin/wes_metabox_posts.php:154
+msgid "End date"
+msgstr "Fecha de finalización"
+
+#: admin/wes_metabox_posts.php:180
+#, fuzzy
+msgid "Or choose a premade banner"
+msgstr "O elige un banner prefabricado"
+
+#: admin/wes_metabox_posts.php:206
+#, fuzzy
+msgid "Generate banner"
+msgstr "Generar banner"
+
+#: admin/wes_metabox_posts.php:277 admin/wes_metabox_posts.php:287
+msgid "%m/%d/%Y"
+msgstr "%d/%m/%Y"
+
+#. Description of the plugin/theme
+#: campaigndot.php:28
+#, fuzzy
+msgid ""
+"The CampaignDot plugin allow automatic creation of email signatures and a "
+"QRCode (Pro version) from the Wordpress user profile page. Corporate datas "
+"are also included in the email signature. A stats page allow you to check "
+"the relevance of your marketing campaign (Pro version)."
+msgstr ""
+"El plugin CampaignDot permite la creación automática de firmas de correo "
+"electrónico y un QRCode (versión Pro) desde la página de perfil de usuario "
+"de Wordpress. Los datos corporativos también se incluyen en la firma de "
+"correo electrónico. Una página de estadísticas le permite comprobar la "
+"relevancia de su campaña de marketing (versión Pro)."
+
+#: campaigndot.php:108
+#, fuzzy
+msgid ""
+"CampaignDotPro add more capabilities to CampaignDot plugin ! Visit <a "
+"href='http://campaigndot.com/'>the plugin site</a> for more infos."
+msgstr ""
+"CampaignDotPro añade más funciones al plugin CampaignDot Visite <a "
+"href='http://campaigndot.com/'>el sitio del plugin</a> para más información."
+
+#: campaigndot.php:327
+#, fuzzy
+msgid "Send signatures by Email"
+msgstr "Enviar firmas por correo electrónico"
+
+#: campaigndot.php:348 wes_signature.php:374
+#, fuzzy
+msgid "Your email signature"
+msgstr "Su firma de correo electrónico"
+
+#: campaigndot.php:362
+#, fuzzy, php-format
+msgid "%d Email signatures were sent."
+msgstr "%d Se enviaron firmas de correo electrónico."
+
+#: campaigndot.php:411
+#, fuzzy
+msgid ""
+"WP Email Signature plugin activated. You use Oxygen builder, two necessary "
+"pages (campaigndot-profile and campaigndot-templates) have been created for "
+"a better experience."
+msgstr ""
+"WP Email Signature plugin activado. Utilizas Oxygen builder, se han creado "
+"dos páginas necesarias (campaigndot-profile y campaigndot-templates) para "
+"una mejor experiencia."
+
+#: include/utilities/signatures/Banner.php:22
+#: template/signatures/2columns.php:141 template/signatures/Block.php:87
+#: template/signatures/Minima.php:89 template/signatures/hubspoot.php:171
+#: template/wes_banner.php:59
+msgid "See"
+msgstr "Ver"
+
+#: template/signatures/2columns.php:63 template/signatures/2columns.php:84
+#: template/signatures/hubspoot.php:51
+msgid "Phone : "
+msgstr "Teléfono: "
+
+#: template/signatures/2columns.php:94
+#, fuzzy
+msgid "GSM : "
+msgstr "GSM :"
+
+#: template/signatures/2columns.php:103 template/signatures/Smartphone.php:56
+msgid "Email : "
+msgstr "Email: "
+
+#: template/signatures/2columns.php:111 template/signatures/Smartphone.php:60
+msgid "Website : "
+msgstr "Sitio Web: "
+
+#: template/signatures/Smartphone.php:38 template/signatures/Smartphone.php:45
+#, fuzzy
+msgid "T. : "
+msgstr "T. :"
+
+#: template/signatures/Smartphone.php:52
+msgid "Mobile : "
+msgstr "Móvil: "
+
+#: template/wes_author.php:342
+#, fuzzy
+msgid "Download the vCard"
+msgstr "Descargar la vCard"
+
+#: template/wes_author.php:353
+#, fuzzy
+msgid "Flash this Qrcode to display this virtual business card on your screen."
+msgstr ""
+"Flashea este Qrcode para mostrar esta tarjeta de visita virtual en tu "
+"pantalla."
+
+#: template/wes_templates.php:403
+#, fuzzy
+msgid ""
+"Email signature kindly generated by <a href=\"https://www.campaigndot.com\" "
+"target=\"_blank\">CampaignDot</a>"
+msgstr ""
+"Firma de correo electrónico generada amablemente por <a href=\"https://www."
+"campaigndot.com\" target=\"_blank\">CampaignDot</a>"
+
+#: wes_signature.php:37
+#, fuzzy, php-format
+msgid "Unable to create %s directory."
+msgstr "No se ha podido crear el directorio %s."
+
+#: wes_signature.php:270
+#, fuzzy
+msgid "Your Email signature"
+msgstr "Su firma de correo electrónico"
+
+#: wes_signature.php:274
+#, fuzzy
+msgid ""
+"Simply copy the signature and paste it in your preferences/signatures/ panel"
+msgstr "Simplemente copia la firma y pégala en tu panel de preferencias/firmas"
+
+#: wes_signature.php:282
+msgid "View online"
+msgstr "Ver online"
+
+#: wes_signature.php:406
+#, fuzzy
+msgid "Signatures templates"
+msgstr "Plantillas de firmas"
+
+#: wes_signature.php:509
+#, fuzzy
+msgid "Please fill the first name and last name fields for this user"
+msgstr "Por favor, rellene los campos de nombre y apellidos para este usuario"
+
+#: wes_signature.php:511
+#, fuzzy
+msgid "Set the company information: logo, website address, phone number."
+msgstr ""
+"Establezca la información de la empresa: logotipo, dirección del sitio web, "
+"número de teléfono."
+
+#: wes_signature.php:539
+#, fuzzy
+msgid "Send this signature by email"
+msgstr "Enviar esta firma por correo electrónico"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "campaignDot"
+msgstr "campaignDot"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://campaigndot.com"
+msgstr "http://campaigndot.com"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.campaigndot.com/"
+msgstr "http://www.campaigndot.com/"

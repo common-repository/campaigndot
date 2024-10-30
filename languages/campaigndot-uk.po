@@ -1,0 +1,601 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: campaignDot\n"
+"POT-Creation-Date: 2024-01-05 11:33+0100\n"
+"PO-Revision-Date: 2024-01-05 11:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: campaigndot.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/accordion.php:241 template/wes_templates.php:280
+msgid "Copy"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:11
+msgid "Banner URL"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:12
+msgid "The URL to redirect on banner click"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:14
+msgid "Banner title"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:15
+msgid "The title of banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:53 admin/menu/wes_mainmenu.php:140
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:60
+msgid "Banner management"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:82
+msgid "Banner display"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:85
+msgid "Check for displaying banner on emails"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:95
+msgid "Static banner mode"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:101
+msgid "Dynamic banner mode"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:101
+msgid " (Pro version only)"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:120
+msgid "Send Banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:123 admin/wes_metabox_posts.php:85
+msgid "Change banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:128
+msgid "Static banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:131 admin/wes_menu.php:48
+msgid "Banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:138 admin/menu/wes_bannermenu.php:144
+#: admin/menu/wes_mainmenu.php:188 admin/menu/wes_mainmenu.php:194
+#: admin/wes_avatar.php:109 admin/wes_avatar.php:115
+#: admin/wes_metabox_posts.php:98
+msgid "Remove"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:139 admin/menu/wes_mainmenu.php:189
+#: admin/wes_avatar.php:110
+msgid "Edit"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:154
+msgid "Upload new Banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:156 admin/menu/wes_mainmenu.php:206
+#: admin/wes_avatar.php:127
+msgid "Use external URL"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:171
+msgid "Upload a custom image as a Banner or use a URL to a pre-existing image."
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:172 admin/menu/wes_mainmenu.php:222
+msgid "Update to save your changes."
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:209
+msgid "Dynamic banner"
+msgstr ""
+
+#: admin/menu/wes_bannermenu.php:210
+msgid "Dynamic banners are only allowed on Pro version of CampaignDot."
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:16
+msgid "Name"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:17
+msgid "Your company name"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:22
+msgid "Address (line 1)"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:27
+msgid "Address (line 2)"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:32
+msgid "Zip code"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:38
+msgid "City"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:39
+msgid "Your company address"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:44 admin/wes_extrafields.php:46
+msgid "Phone"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:45
+msgid "Your company standard phone"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:50
+msgid "Web site"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:51
+msgid "Your company web site"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:56
+msgid "eMail"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:57
+msgid "The generic email of your company"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:62
+msgid "Legal Notice"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:63
+msgid "The text of the legal notice attached to emails"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:68
+msgid "Primary color"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:69
+msgid "Your company primary color"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:75
+msgid "Secondary color"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:76
+msgid "Your company secondary color"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:83
+msgid "Icon option"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:84
+msgid "Choose a design for your social icons."
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:92
+#, php-format
+msgid "The %s URL of your company"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:149 admin/wes_menu.php:39 admin/wes_menu.php:40
+msgid "Corporate infos"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:163
+msgid "Send Logo"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:166
+msgid "Change Logo"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:177
+msgid "Design preferences"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:181
+msgid "Logo"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:204
+msgid "Upload new Logo"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:221
+msgid "Upload a custom image as a Logo or use a URL to a pre-existing image."
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:233
+msgid "Social icons design"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:286
+msgid "Deactivate Base64 encoding for banners"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:294
+msgid "Company details"
+msgstr ""
+
+#: admin/menu/wes_mainmenu.php:322
+msgid "Social networks"
+msgstr ""
+
+#: admin/template/wes_debug.php:10
+msgid "Some debug infos"
+msgstr ""
+
+#: admin/template/wes_debug.php:11
+msgid "Essentially developped for EDD debugging ..."
+msgstr ""
+
+#: admin/template/wes_help.php:8
+msgid "help"
+msgstr ""
+
+#: admin/template/wes_pro.php:9
+msgid "PRO version"
+msgstr ""
+
+#: admin/template/wes_pro.php:10
+msgid ""
+"This is the PRO version of CampaignDot, including statistics, dynamic "
+"banner, etc..."
+msgstr ""
+
+#: admin/template/wes_pro.php:11
+msgid ""
+"View <a href=\"http://campaigndot.com/\">the CampaignDot site</a> for more "
+"informations."
+msgstr ""
+
+#: admin/wes_avatar.php:57
+msgid "Send picture"
+msgstr ""
+
+#: admin/wes_avatar.php:60
+msgid "Change picture"
+msgstr ""
+
+#: admin/wes_avatar.php:76
+msgid "Signature builder"
+msgstr ""
+
+#: admin/wes_avatar.php:96
+msgid "User profile"
+msgstr ""
+
+#: admin/wes_avatar.php:97
+msgid "Your user profile should be 200px X 200px."
+msgstr ""
+
+#: admin/wes_avatar.php:125
+msgid "Upload new image"
+msgstr ""
+
+#: admin/wes_avatar.php:144
+msgid "Rounded"
+msgstr ""
+
+#: admin/wes_avatar.php:147
+msgid "Text-size"
+msgstr ""
+
+#: admin/wes_avatar.php:187
+msgid "Quick links"
+msgstr ""
+
+#: admin/wes_avatar.php:190 campaigndot.php:262 campaigndot.php:278
+msgid "Profile page"
+msgstr ""
+
+#: admin/wes_avatar.php:190 campaigndot.php:263 campaigndot.php:286
+msgid "Template page"
+msgstr ""
+
+#: admin/wes_extrafields.php:26
+msgid "User Detail"
+msgstr ""
+
+#: admin/wes_extrafields.php:31
+msgid "Position"
+msgstr ""
+
+#: admin/wes_extrafields.php:33
+msgid "Your corporate position"
+msgstr ""
+
+#: admin/wes_extrafields.php:39
+msgid "GSM"
+msgstr ""
+
+#: admin/wes_extrafields.php:41
+msgid "Format: +33 (0) 6 00 00 00 00"
+msgstr ""
+
+#: admin/wes_extrafields.php:48
+msgid "Format: +33 (0) 1 00 00 00"
+msgstr ""
+
+#: admin/wes_extrafields.php:54
+msgid "Skype"
+msgstr ""
+
+#: admin/wes_extrafields.php:56
+msgid "Your Skype ID"
+msgstr ""
+
+#: admin/wes_extrafields.php:63
+msgid "Select banner categories"
+msgstr ""
+
+#: admin/wes_extrafields.php:65
+msgid "Include only following categories"
+msgstr ""
+
+#: admin/wes_extrafields.php:67
+msgid "Exclude following categories"
+msgstr ""
+
+#: admin/wes_menu.php:21 admin/wes_menu.php:31
+msgid "CampaignDot Help"
+msgstr ""
+
+#. Author of the plugin/theme
+#: admin/wes_menu.php:22
+msgid "CampaignDot"
+msgstr ""
+
+#: admin/wes_menu.php:32
+msgid "Help"
+msgstr ""
+
+#: admin/wes_menu.php:47
+msgid "Campain banner"
+msgstr ""
+
+#: admin/wes_menu.php:57
+msgid "Debug info page"
+msgstr ""
+
+#: admin/wes_menu.php:58
+msgid "Debug info"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:16
+msgid "CampaignDot Banner"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:49
+msgid "firstDay: 0"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:50
+msgid ""
+"dayNames: [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", "
+"\"Friday\", \"Saturday\"]"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:51
+msgid "dayNamesMin: [ \"Su\", \"Mo\", \"Tu\", \"We\", \"Th\", \"Fr\", \"Sa\" ]"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:52
+msgid ""
+"dayNamesShort: [ \"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", "
+"\"Sat\" ]"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:53
+msgid ""
+"monthNames: [ \"January\", \"February\", \"March\", \"April\", \"May\", "
+"\"June\", \"July\", \"August\", \"September\", \"October\", \"November\", "
+"\"December\" ]"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:54
+msgid ""
+"monthNamesShort: [ \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", "
+"\"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\" ]"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:83
+msgid "Choose Banner"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:91
+msgid "Choose a banner"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:121
+msgid "Select publication dates"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:126
+msgid "Start date"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:130 admin/wes_metabox_posts.php:159
+msgid "m/d/Y"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:144 admin/wes_metabox_posts.php:173
+msgid "Format : "
+msgstr ""
+
+#: admin/wes_metabox_posts.php:154
+msgid "End date"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:180
+msgid "Or choose a premade banner"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:206
+msgid "Generate banner"
+msgstr ""
+
+#: admin/wes_metabox_posts.php:277 admin/wes_metabox_posts.php:287
+msgid "%m/%d/%Y"
+msgstr ""
+
+#. Description of the plugin/theme
+#: campaigndot.php:28
+msgid ""
+"The CampaignDot plugin allow automatic creation of email signatures and a "
+"QRCode (Pro version) from the Wordpress user profile page. Corporate datas "
+"are also included in the email signature. A stats page allow you to check "
+"the relevance of your marketing campaign (Pro version)."
+msgstr ""
+
+#: campaigndot.php:108
+msgid ""
+"CampaignDotPro add more capabilities to CampaignDot plugin ! Visit <a "
+"href='http://campaigndot.com/'>the plugin site</a> for more infos."
+msgstr ""
+
+#: campaigndot.php:327
+msgid "Send signatures by Email"
+msgstr ""
+
+#: campaigndot.php:348 wes_signature.php:374
+msgid "Your email signature"
+msgstr ""
+
+#: campaigndot.php:362
+#, php-format
+msgid "%d Email signatures were sent."
+msgstr ""
+
+#: campaigndot.php:411
+msgid ""
+"WP Email Signature plugin activated. You use Oxygen builder, two necessary "
+"pages (campaigndot-profile and campaigndot-templates) have been created for "
+"a better experience."
+msgstr ""
+
+#: include/utilities/signatures/Banner.php:22
+#: template/signatures/2columns.php:141 template/signatures/Block.php:87
+#: template/signatures/Minima.php:89 template/signatures/hubspoot.php:171
+#: template/wes_banner.php:59
+msgid "See"
+msgstr ""
+
+#: template/signatures/2columns.php:63 template/signatures/2columns.php:84
+#: template/signatures/hubspoot.php:51
+msgid "Phone : "
+msgstr ""
+
+#: template/signatures/2columns.php:94
+msgid "GSM : "
+msgstr ""
+
+#: template/signatures/2columns.php:103 template/signatures/Smartphone.php:56
+msgid "Email : "
+msgstr ""
+
+#: template/signatures/2columns.php:111 template/signatures/Smartphone.php:60
+msgid "Website : "
+msgstr ""
+
+#: template/signatures/Smartphone.php:38 template/signatures/Smartphone.php:45
+msgid "T. : "
+msgstr ""
+
+#: template/signatures/Smartphone.php:52
+msgid "Mobile : "
+msgstr ""
+
+#: template/wes_author.php:342
+msgid "Download the vCard"
+msgstr ""
+
+#: template/wes_author.php:353
+msgid "Flash this Qrcode to display this virtual business card on your screen."
+msgstr ""
+
+#: template/wes_templates.php:403
+msgid ""
+"Email signature kindly generated by <a href=\"https://www.campaigndot.com\" "
+"target=\"_blank\">CampaignDot</a>"
+msgstr ""
+
+#: wes_signature.php:37
+#, php-format
+msgid "Unable to create %s directory."
+msgstr ""
+
+#: wes_signature.php:270
+msgid "Your Email signature"
+msgstr ""
+
+#: wes_signature.php:274
+msgid ""
+"Simply copy the signature and paste it in your preferences/signatures/ panel"
+msgstr ""
+
+#: wes_signature.php:282
+msgid "View online"
+msgstr ""
+
+#: wes_signature.php:406
+msgid "Signatures templates"
+msgstr ""
+
+#: wes_signature.php:509
+msgid "Please fill the first name and last name fields for this user"
+msgstr ""
+
+#: wes_signature.php:511
+msgid "Set the company information: logo, website address, phone number."
+msgstr ""
+
+#: wes_signature.php:539
+msgid "Send this signature by email"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "campaignDot"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://campaigndot.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.campaigndot.com/"
+msgstr ""

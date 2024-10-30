@@ -1,0 +1,708 @@
+/*
+	Title: Webocube Admin WES Styles
+	Author: François TOURDE
+	Description: Styles for WP Admin user page.
+*/
+
+#wes_container* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+#wes_container{
+	padding: 0px;
+	margin-top: 0px;
+	background-color: #425b76;
+	color: #fff;
+
+}
+
+.campaigndot_wrapper{
+-webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+box-shadow: 10px 10px 20px 0px rgb(0,0,0,0.2);
+
+}
+.campaigndot_head{
+	background: url(../img/picto-campaigndot.png) 9px no-repeat #33475b;
+	color: #ffffff; 
+	padding: 30px 12px 30px 50px !important; 
+	font-size: 28px;
+	font-weight: 300;
+
+}
+
+/* Current Profile Image Styles */
+form#your-profile #current_img{
+	display: inline-block;	
+}
+
+#current_img{
+	position: relative;
+	max-width: 468px;
+	height: auto;
+	text-align: right;
+	margin-bottom: 10px;
+	text-align:left!important;
+}
+
+.wes-current-img{
+	max-width: 468px;
+	max-height: 80px;
+	height: auto;
+	background: transparent;
+}
+
+.wes-current-img.placeholder{
+	width: 1px;
+	height: 1px;
+	border: 0;
+	background: transparent;
+}
+
+.edit_options{
+	display: block;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 400px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.edit_options .remove_img, .edit_options .edit_img{
+	float: left;
+	position: relative;
+	color: #444;
+	font-size: 13px;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+.edit_options span{
+	display: block;
+	position: relative;
+	top: 50%;
+	margin-top: -10px;
+}
+
+.edit_options .remove_img{
+	color: #fff;
+	background-color: rgb(214, 14, 14);
+	background-color: rgba(214, 14, 14, 0.50);
+}
+
+.edit_options.single .remove_img{
+	width: 100%;
+}
+
+.edit_options .remove_img:hover, .edit_options .remove_img:focus{
+	background-color: #ff0000;
+	background-color: rgba(214, 14, 14, 0.75);
+}
+
+.edit_options .edit_img{
+	color: #fff;
+	background-color: rgb(50, 50, 50);
+	background-color: rgba(50, 50, 50, 0.50);
+}
+
+.edit_options .edit_img:hover, .edit_options .edit_img:focus{
+	background-color: rgb(25, 25, 25);
+	background-color: rgba(50, 50, 50, 0.75);
+}
+
+/* Radio Button Styles */
+#wes_options{
+	margin-bottom: 10px;
+}
+
+#wes_external{
+	display: none;
+}
+.signature_wrapper{
+max-width: 650px;
+	float: left;
+}
+.qrcode{
+	float: left;
+	margin-left: 20px;
+}
+
+/* Statistiques */
+
+.wes_stats_wrapper {
+	width: 74%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #f6f6f6;
+	border: 1px solid #cacaca;
+}
+.wes_stats_wrapper h3{
+	margin-top: 0;
+}
+
+.wes_second_row{
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-left: 20px;
+	margin-top: 25px;
+	border-top: 1px solid #cacaca;
+	display: flex;
+}
+
+.wes_chart_browser_chart{
+	width: 45%;
+	display: inline-block;
+}
+.wes_chart_user_chart{
+	float: right;
+	width: 50%;
+}
+.wes_chart_user_chart table{
+	width: 100%;
+}
+.wes_chart_user_chart table tr:nth-child(odd),
+.wes_chart_user_chart table tr:hover{
+	background-color: #fff;
+}
+
+.wes_chart_user_chart img{
+	width: 25px;
+	height: auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.wes_chart_user_chart th,
+.wes_chart_user_chart td{
+	padding: 4px 10px 0;
+	text-align: center;
+}
+.wes_chart_user_chart th{
+	background-color: #666666;
+	color: #f5f5f5;
+}
+.wes_chart_user_chart td{
+	font-weight: bold;
+	border-bottom: 1px solid #cacaca;
+}
+
+.wes_chart_annual_chart .c3-line {
+    stroke-width: 3px;
+}
+td.wes_categories li{
+	list-style: none;
+}
+
+/* HIDE RADIO */
+
+.icon_option [type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+.icon_option [type=radio] + img {
+  cursor: pointer;
+  	padding: 8px!important;
+  	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+width: 120px;
+}
+
+/* CHECKED STYLES */
+.icon_option [type=radio]:checked + img,
+.icon_option [type=radio] + img:hover {
+  background-color: #f5f5f5;
+}
+
+.wes_button{
+	background: #2271b1;
+border-color: #2271b1;
+color: #fff;
+text-decoration: none;
+text-shadow: none;
+padding: 20px;
+display: inline-block;
+text-decoration: none;
+font-size: 13px;
+line-height: 2.15384615;
+min-height: 30px;
+margin: 0;
+margin-right: 10px;
+padding: 0 10px;
+cursor: pointer;
+border-width: 1px;
+border-style: solid;
+-webkit-appearance: none;
+appearance: none;
+border-radius: 3px;
+white-space: nowrap;
+box-sizing: border-box;
+}
+.wes_button:hover {
+	color: #fff;
+	background-color:  #1b5a8e;
+}
+
+.form-table #signature.model1 td {
+padding: 0px !important;
+}
+
+.form-table #signature.model1 td.cpd_qrcode {
+padding-left:50px!important; 
+}
+
+.form-table #signature{
+	padding: 50px!important;
+	background-color: white;
+	border: 1px #cacaca solid;
+}
+.icon_option img{
+	width:  150px;
+	height: auto;
+}
+
+.wes_tab_user_data { display: inline-block;}
+
+.wes_tabs_global {
+	min-width: 400px;
+	color: #ffffff;
+	overflow: hidden;
+}
+
+.wes_tabs_global h3{
+		color: #ffffff!important;
+
+}
+
+.wes_tabs_global input.wes_nav_tabs { display: none; }  /* hide radio buttons */
+.wes_tabs_global input + label { display: inline-block } /* show labels in line */
+.wes_tabs_global input ~ .tab { display: none; }          /* hide contents */
+/* show contents only for selected tab */
+.wes_tabs_global #tab1:checked ~ .tab.content1,
+.wes_tabs_global #tab2:checked ~ .tab.content2,
+.wes_tabs_global #tab3:checked ~ .tab.content3 { 
+	display: block;   
+	background-color: #33475b;
+	min-height: 600px;
+ }
+
+.wes_tabs_global input.wes_nav_tabs + label {             /* box with rounded corner */
+  padding: 20px 30px;
+  position: relative;
+  top: 1px;
+  background-color: #425b76;
+}
+
+.wes_tabs_global input.wes_nav_tabs + label img {
+width:18px; 
+height:auto;
+}
+.wes_tabs_global input.wes_nav_tabs + label:hover{
+background-color: #33475b;
+}
+
+.wes_tabs_global input:checked + label{
+background-color: #33475b;
+}
+
+.campaigndot_wrapper input ~ .tab {          /* grey line between tab and contents */
+  padding: 50px;
+}
+
+.campaigndot_wrapper label{
+	font-weight: 600;
+	line-height: 2em;
+
+}
+.campaigndot_wrapper .description {
+	opacity: 0.6;
+line-height: 2em;
+}
+
+.campaigndot_wrapper table {
+	border: none;
+padding: 0px;
+	border: none;
+	border-collapse: collapse;
+}
+
+
+#wes_container {min-height: 600px;}
+
+
+.campaigndot_wrapper {
+	width: 95%;
+	margin-top: 50px;
+	border: #33475b 4px solid;
+	overflow: hidden;
+}
+
+.campaigndot_wrapper input.regular-text {
+	width: 100%;
+}
+
+td.wes_tabs_global {
+	width: 400px; 
+	max-width:400px;
+	background-color: #425b76;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	border-collapse: collapse;
+
+	}
+
+.wes_tabs_menu{
+	background-color: #425b76;
+}
+
+#signature_general_wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 30px!important;
+	background-color: #ffffff;
+border: 1px #cacaca solid;
+box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.2);
+-webkit-box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.2);
+width: 800px;
+min-height: 500px;
+}
+
+#signature_general_wrapper tr{
+	width:100%;
+}
+
+#signature{
+	 position: relative!important;
+	 width: 800px;
+min-height: 500px;
+}
+
+#signature > table{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+/* IMAGE STYLES */
+.wes_template_img label{
+position: relative;
+}
+
+.wes_template_img label img {
+ width: 300px;
+height: 160px;
+opacity: 0.5;
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.wes_template_img input[type=radio]:checked + label img,
+.wes_template_img input[type=radio] + label img:hover {
+	opacity: 1;	
+}
+
+.wes_template_img input[type=radio] { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.tab.content1,
+.tab.content2,
+.tab.content3 {
+	max-height: 600px;
+overflow: auto;
+}
+
+.wes_template_label {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+#wes_container.wes_help{
+	background-color: #f5f5f5;
+	color:  #333333;
+	padding: 30px 100px;
+	font-size: 16px;
+}
+#wes_container.wes_help p{
+		font-size: 16px;
+}
+
+#wpfooter {
+	display: none;
+}
+
+.kind_label{
+	opacity: 1;
+position: absolute;
+top: 5px;
+left: 5px;
+padding: 1px 8px;
+font-size: 11px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+/*
+	Style the checkbox button for "Send this signature by email"
+*/
+
+.checkbox_style{
+	position: relative;
+}
+
+/* The switch - the box around the slider */
+.checkbox_style .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+/* Hide default HTML checkbox */
+.checkbox_style .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.checkbox_style .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.checkbox_style .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.checkbox_style input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.checkbox_style input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.checkbox_style input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.checkbox_style .slider.round {
+  border-radius: 34px;
+}
+
+.checkbox_style .slider.round:before {
+  border-radius: 50%;
+}
+
+.first_use_container_top{
+	width: 100%;
+	padding-top:150px;
+	text-align: center;
+}
+.first_use_container{
+	width: 100%;
+	text-align: center;
+
+}
+
+table.wes_user_additional_data {
+	width: 100%;
+}
+
+.signature_wrapper_template {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+
+/* Design bannière */
+
+    .create_banner {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333333;
+    border: solid 1px #cacaca;
+    display: block;
+    padding: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 1em 1em 1em 0;
+    width:468px;
+    height:60px;
+    text-align:left;
+}
+
+.create_banner .bannere_thumbnail{
+  margin-right: 40px;
+}
+
+.bannere_arrow{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: right;
+	margin-right: 10px;
+	width: 30px;
+
+}
+
+.banner_content {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+color:#333;
+text-align: center;
+float: left;
+
+}
+
+.banner_title{
+color:#333;
+text-align: center;
+font-size: 13px;
+font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+    .small_create_banner {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333333;
+    border: 1px solid #cacaca;
+    display: block;
+    padding: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 1em 1em 1em 0;
+    width:468px;
+    height:60px;
+    text-align:left;
+
+}
+
+
+.small_create_banner .bannere_thumbnail{
+  margin-right: 20px;
+}
+.small_bannere_arrow{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: right;
+	margin-right: 5px;
+	width: 30px;
+}
+
+.small_banner_content {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+color:#333;
+text-align: center;
+	float: left;
+	max-width: 280px;
+}
+
+.small_banner_title{
+color:#333;
+text-align: center;
+font-weight: bold;
+}
+
+
+.banner_excerpt p {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.4;
+}
+.wes_signature_title_wrapper {
+	padding-top: 30px;
+	text-align: center;
+position: relative;
+}
+
+.wes_signature_title{
+	font-weight: 600;
+	font-size: 16px;
+	display:  inline-block;
+	
+}
+
+.kind_label_small{
+padding: 1px 8px;
+font-size: 11px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+color: #fff;
+font-weight: 600;
+width: auto;
+display:  inline-block;
+margin-right: 5px;
+
+}
+
+.tab-content{
+background-color: #ffffff;
+	}
+
+.icon_option label {
+	display: inline-block;
+	text-align: center;
+}
+.campaigndot_settings_details_even{
+	background-color: #eef3f8;
+		padding: 30px;
+}
+.campaigndot_settings_details_odd{
+	background-color: #ffffff;
+	padding: 30px;
+}
+

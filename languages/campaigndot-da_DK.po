@@ -1,0 +1,730 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: campaignDot\n"
+"POT-Creation-Date: 2024-01-05 11:33+0100\n"
+"PO-Revision-Date: 2024-01-05 11:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: campaigndot.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/accordion.php:241 template/wes_templates.php:280
+msgid "Copy"
+msgstr "Kopier"
+
+#: admin/menu/wes_bannermenu.php:11
+#, fuzzy
+msgid "Banner URL"
+msgstr "Banner-URL"
+
+#: admin/menu/wes_bannermenu.php:12
+#, fuzzy
+msgid "The URL to redirect on banner click"
+msgstr "URL'en, der skal omdirigeres ved bannerklik"
+
+#: admin/menu/wes_bannermenu.php:14
+#, fuzzy
+msgid "Banner title"
+msgstr "Bannerets titel"
+
+#: admin/menu/wes_bannermenu.php:15
+#, fuzzy
+msgid "The title of banner"
+msgstr "Titlen på banneret"
+
+#: admin/menu/wes_bannermenu.php:53 admin/menu/wes_mainmenu.php:140
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke tilstrækkelige rettigheder til at tilgå denne side."
+
+#: admin/menu/wes_bannermenu.php:60
+#, fuzzy
+msgid "Banner management"
+msgstr "Bannerstyring"
+
+#: admin/menu/wes_bannermenu.php:82
+#, fuzzy
+msgid "Banner display"
+msgstr "Bannervisning"
+
+#: admin/menu/wes_bannermenu.php:85
+#, fuzzy
+msgid "Check for displaying banner on emails"
+msgstr "Tjek for visning af banner på e-mails"
+
+#: admin/menu/wes_bannermenu.php:95
+#, fuzzy
+msgid "Static banner mode"
+msgstr "Statisk bannertilstand"
+
+#: admin/menu/wes_bannermenu.php:101
+#, fuzzy
+msgid "Dynamic banner mode"
+msgstr "Dynamisk bannertilstand"
+
+#: admin/menu/wes_bannermenu.php:101
+#, fuzzy
+msgid " (Pro version only)"
+msgstr " (Kun Pro-version)"
+
+#: admin/menu/wes_bannermenu.php:120
+#, fuzzy
+msgid "Send Banner"
+msgstr "Send banner"
+
+#: admin/menu/wes_bannermenu.php:123 admin/wes_metabox_posts.php:85
+#, fuzzy
+msgid "Change banner"
+msgstr "Skift banner"
+
+#: admin/menu/wes_bannermenu.php:128
+#, fuzzy
+msgid "Static banner"
+msgstr "Statisk banner"
+
+#: admin/menu/wes_bannermenu.php:131 admin/wes_menu.php:48
+msgid "Banner"
+msgstr "Banner"
+
+#: admin/menu/wes_bannermenu.php:138 admin/menu/wes_bannermenu.php:144
+#: admin/menu/wes_mainmenu.php:188 admin/menu/wes_mainmenu.php:194
+#: admin/wes_avatar.php:109 admin/wes_avatar.php:115
+#: admin/wes_metabox_posts.php:98
+msgid "Remove"
+msgstr "Fjern"
+
+#: admin/menu/wes_bannermenu.php:139 admin/menu/wes_mainmenu.php:189
+#: admin/wes_avatar.php:110
+msgid "Edit"
+msgstr "Rediger"
+
+#: admin/menu/wes_bannermenu.php:154
+#, fuzzy
+msgid "Upload new Banner"
+msgstr "Upload nyt banner"
+
+#: admin/menu/wes_bannermenu.php:156 admin/menu/wes_mainmenu.php:206
+#: admin/wes_avatar.php:127
+#, fuzzy
+msgid "Use external URL"
+msgstr "Brug ekstern URL"
+
+#: admin/menu/wes_bannermenu.php:171
+#, fuzzy
+msgid "Upload a custom image as a Banner or use a URL to a pre-existing image."
+msgstr ""
+"Upload et brugerdefineret billede som et banner, eller brug en URL til et "
+"allerede eksisterende billede."
+
+#: admin/menu/wes_bannermenu.php:172 admin/menu/wes_mainmenu.php:222
+#, fuzzy
+msgid "Update to save your changes."
+msgstr "Opdater for at gemme dine ændringer."
+
+#: admin/menu/wes_bannermenu.php:209
+#, fuzzy
+msgid "Dynamic banner"
+msgstr "Dynamisk banner"
+
+#: admin/menu/wes_bannermenu.php:210
+#, fuzzy
+msgid "Dynamic banners are only allowed on Pro version of CampaignDot."
+msgstr "Dynamiske bannere er kun tilladt i Pro-versionen af CampaignDot."
+
+#: admin/menu/wes_mainmenu.php:16
+msgid "Name"
+msgstr "Navn"
+
+#: admin/menu/wes_mainmenu.php:17
+#, fuzzy
+msgid "Your company name"
+msgstr "Dit firmanavn"
+
+#: admin/menu/wes_mainmenu.php:22
+#, fuzzy
+msgid "Address (line 1)"
+msgstr "Adresse (linje 1)"
+
+#: admin/menu/wes_mainmenu.php:27
+#, fuzzy
+msgid "Address (line 2)"
+msgstr "Adresse (linje 2)"
+
+#: admin/menu/wes_mainmenu.php:32
+msgid "Zip code"
+msgstr "Postnummer"
+
+#: admin/menu/wes_mainmenu.php:38
+msgid "City"
+msgstr "By"
+
+#: admin/menu/wes_mainmenu.php:39
+#, fuzzy
+msgid "Your company address"
+msgstr "Din virksomheds adresse"
+
+#: admin/menu/wes_mainmenu.php:44 admin/wes_extrafields.php:46
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/menu/wes_mainmenu.php:45
+#, fuzzy
+msgid "Your company standard phone"
+msgstr "Din virksomheds standardtelefon"
+
+#: admin/menu/wes_mainmenu.php:50
+msgid "Web site"
+msgstr "Websted"
+
+#: admin/menu/wes_mainmenu.php:51
+#, fuzzy
+msgid "Your company web site"
+msgstr "Din virksomheds hjemmeside"
+
+#: admin/menu/wes_mainmenu.php:56
+msgid "eMail"
+msgstr "e-mail"
+
+#: admin/menu/wes_mainmenu.php:57
+#, fuzzy
+msgid "The generic email of your company"
+msgstr "Den generiske e-mail for din virksomhed"
+
+#: admin/menu/wes_mainmenu.php:62
+msgid "Legal Notice"
+msgstr "Juridisk bemærkning"
+
+#: admin/menu/wes_mainmenu.php:63
+#, fuzzy
+msgid "The text of the legal notice attached to emails"
+msgstr "Teksten til den juridiske meddelelse vedhæftet e-mails"
+
+#: admin/menu/wes_mainmenu.php:68
+msgid "Primary color"
+msgstr "Primære farve"
+
+#: admin/menu/wes_mainmenu.php:69
+#, fuzzy
+msgid "Your company primary color"
+msgstr "Din virksomheds primære farve"
+
+#: admin/menu/wes_mainmenu.php:75
+msgid "Secondary color"
+msgstr "Sekundær farve"
+
+#: admin/menu/wes_mainmenu.php:76
+#, fuzzy
+msgid "Your company secondary color"
+msgstr "Din virksomheds sekundære farve"
+
+#: admin/menu/wes_mainmenu.php:83
+#, fuzzy
+msgid "Icon option"
+msgstr "Valg af ikon"
+
+#: admin/menu/wes_mainmenu.php:84
+#, fuzzy
+msgid "Choose a design for your social icons."
+msgstr "Vælg et design til dine sociale ikoner."
+
+#: admin/menu/wes_mainmenu.php:92
+#, fuzzy, php-format
+msgid "The %s URL of your company"
+msgstr "Din virksomheds %s URL"
+
+#: admin/menu/wes_mainmenu.php:149 admin/wes_menu.php:39 admin/wes_menu.php:40
+#, fuzzy
+msgid "Corporate infos"
+msgstr "Oplysninger om virksomheden"
+
+#: admin/menu/wes_mainmenu.php:163
+#, fuzzy
+msgid "Send Logo"
+msgstr "Send logo"
+
+#: admin/menu/wes_mainmenu.php:166
+msgid "Change Logo"
+msgstr "Skift logo"
+
+#: admin/menu/wes_mainmenu.php:177
+#, fuzzy
+msgid "Design preferences"
+msgstr "Præferencer for design"
+
+#: admin/menu/wes_mainmenu.php:181
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/menu/wes_mainmenu.php:204
+#, fuzzy
+msgid "Upload new Logo"
+msgstr "Upload nyt logo"
+
+#: admin/menu/wes_mainmenu.php:221
+#, fuzzy
+msgid "Upload a custom image as a Logo or use a URL to a pre-existing image."
+msgstr ""
+"Upload et brugerdefineret billede som logo, eller brug en URL til et "
+"allerede eksisterende billede."
+
+#: admin/menu/wes_mainmenu.php:233
+#, fuzzy
+msgid "Social icons design"
+msgstr "Design af sociale ikoner"
+
+#: admin/menu/wes_mainmenu.php:286
+#, fuzzy
+msgid "Deactivate Base64 encoding for banners"
+msgstr "Deaktiver Base64-kodning for bannere"
+
+#: admin/menu/wes_mainmenu.php:294
+msgid "Company details"
+msgstr "Firma oplysninger"
+
+#: admin/menu/wes_mainmenu.php:322
+#, fuzzy
+msgid "Social networks"
+msgstr "Sociale netværk"
+
+#: admin/template/wes_debug.php:10
+#, fuzzy
+msgid "Some debug infos"
+msgstr "Nogle fejlfindingsoplysninger"
+
+#: admin/template/wes_debug.php:11
+#, fuzzy
+msgid "Essentially developped for EDD debugging ..."
+msgstr "I bund og grund udviklet til EDD-fejlfinding ..."
+
+#: admin/template/wes_help.php:8
+msgid "help"
+msgstr "hjælp"
+
+#: admin/template/wes_pro.php:9
+#, fuzzy
+msgid "PRO version"
+msgstr "PRO-version"
+
+#: admin/template/wes_pro.php:10
+#, fuzzy
+msgid ""
+"This is the PRO version of CampaignDot, including statistics, dynamic "
+"banner, etc..."
+msgstr ""
+"Dette er PRO-versionen af CampaignDot, inklusive statistik, dynamisk banner "
+"osv."
+
+#: admin/template/wes_pro.php:11
+#, fuzzy
+msgid ""
+"View <a href=\"http://campaigndot.com/\">the CampaignDot site</a> for more "
+"informations."
+msgstr ""
+"Se <a href=\"http://campaigndot.com/\">CampaignDots hjemmeside</a> for flere "
+"oplysninger."
+
+#: admin/wes_avatar.php:57
+#, fuzzy
+msgid "Send picture"
+msgstr "Send billede"
+
+#: admin/wes_avatar.php:60
+msgid "Change picture"
+msgstr "Ændr billede"
+
+#: admin/wes_avatar.php:76
+#, fuzzy
+msgid "Signature builder"
+msgstr "Signatur bygherre"
+
+#: admin/wes_avatar.php:96
+msgid "User profile"
+msgstr "Bruger profil"
+
+#: admin/wes_avatar.php:97
+#, fuzzy
+msgid "Your user profile should be 200px X 200px."
+msgstr "Din brugerprofil skal være 200px X 200px."
+
+#: admin/wes_avatar.php:125
+msgid "Upload new image"
+msgstr "Overfør nyt billede"
+
+#: admin/wes_avatar.php:144
+msgid "Rounded"
+msgstr "Afrundet"
+
+#: admin/wes_avatar.php:147
+#, fuzzy
+msgid "Text-size"
+msgstr "Tekststørrelse"
+
+#: admin/wes_avatar.php:187
+msgid "Quick links"
+msgstr "Hurtige links"
+
+#: admin/wes_avatar.php:190 campaigndot.php:262 campaigndot.php:278
+msgid "Profile page"
+msgstr "Profilside"
+
+#: admin/wes_avatar.php:190 campaigndot.php:263 campaigndot.php:286
+#, fuzzy
+msgid "Template page"
+msgstr "Skabelon-side"
+
+#: admin/wes_extrafields.php:26
+#, fuzzy
+msgid "User Detail"
+msgstr "Brugeroplysninger"
+
+#: admin/wes_extrafields.php:31
+msgid "Position"
+msgstr "Position"
+
+#: admin/wes_extrafields.php:33
+#, fuzzy
+msgid "Your corporate position"
+msgstr "Din position i virksomheden"
+
+#: admin/wes_extrafields.php:39
+#, fuzzy
+msgid "GSM"
+msgstr "GSM"
+
+#: admin/wes_extrafields.php:41
+#, fuzzy
+msgid "Format: +33 (0) 6 00 00 00 00"
+msgstr "Format: +33 (0) 6 00 00 00 00"
+
+#: admin/wes_extrafields.php:48
+#, fuzzy
+msgid "Format: +33 (0) 1 00 00 00"
+msgstr "Format: +33 (0) 1 00 00 00"
+
+#: admin/wes_extrafields.php:54
+msgid "Skype"
+msgstr "Skype"
+
+#: admin/wes_extrafields.php:56
+#, fuzzy
+msgid "Your Skype ID"
+msgstr "Dit Skype-id"
+
+#: admin/wes_extrafields.php:63
+#, fuzzy
+msgid "Select banner categories"
+msgstr "Vælg bannerkategorier"
+
+#: admin/wes_extrafields.php:65
+#, fuzzy
+msgid "Include only following categories"
+msgstr "Medtag kun følgende kategorier"
+
+#: admin/wes_extrafields.php:67
+#, fuzzy
+msgid "Exclude following categories"
+msgstr "Ekskluder følgende kategorier"
+
+#: admin/wes_menu.php:21 admin/wes_menu.php:31
+#, fuzzy
+msgid "CampaignDot Help"
+msgstr "CampaignDot Hjælp"
+
+#. Author of the plugin/theme
+#: admin/wes_menu.php:22
+#, fuzzy
+msgid "CampaignDot"
+msgstr "KampagneDot"
+
+#: admin/wes_menu.php:32
+msgid "Help"
+msgstr "Hjælp"
+
+#: admin/wes_menu.php:47
+#, fuzzy
+msgid "Campain banner"
+msgstr "Kampagnens banner"
+
+#: admin/wes_menu.php:57
+#, fuzzy
+msgid "Debug info page"
+msgstr "Fejlfindingsinfo-side"
+
+#: admin/wes_menu.php:58
+msgid "Debug info"
+msgstr "Fejlfindingsoplysninger"
+
+#: admin/wes_metabox_posts.php:16
+#, fuzzy
+msgid "CampaignDot Banner"
+msgstr "CampaignDot Banner"
+
+#: admin/wes_metabox_posts.php:49
+#, fuzzy
+msgid "firstDay: 0"
+msgstr "førsteDag: 0"
+
+#: admin/wes_metabox_posts.php:50
+#, fuzzy
+msgid ""
+"dayNames: [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", "
+"\"Friday\", \"Saturday\"]"
+msgstr ""
+"dayNames: [\"Søndag\", \"Mandag\", \"Tirsdag\", \"Onsdag\", \"Torsdag\", "
+"\"Fredag\", \"Lørdag\"]"
+
+#: admin/wes_metabox_posts.php:51
+#, fuzzy
+msgid "dayNamesMin: [ \"Su\", \"Mo\", \"Tu\", \"We\", \"Th\", \"Fr\", \"Sa\" ]"
+msgstr ""
+"dayNamesMin: [ \"Su\", \"Mo\", \"Tu\", \"We\", \"Th\", \"Fr\", \"Sa\" ]"
+
+#: admin/wes_metabox_posts.php:52
+#, fuzzy
+msgid ""
+"dayNamesShort: [ \"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", "
+"\"Sat\" ]"
+msgstr ""
+"dayNamesShort: [ \"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", "
+"\"Sat\" ]"
+
+#: admin/wes_metabox_posts.php:53
+#, fuzzy
+msgid ""
+"monthNames: [ \"January\", \"February\", \"March\", \"April\", \"May\", "
+"\"June\", \"July\", \"August\", \"September\", \"October\", \"November\", "
+"\"December\" ]"
+msgstr ""
+"monthNames: [ \"Januar\", \"Februar\", \"Marts\", \"April\", \"Maj\", "
+"\"Juni\", \"Juli\", \"August\", \"September\", \"Oktober\", \"November\", "
+"\"December\" ]"
+
+#: admin/wes_metabox_posts.php:54
+#, fuzzy
+msgid ""
+"monthNamesShort: [ \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", "
+"\"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\" ]"
+msgstr ""
+"monthNamesShort: [ \"jan\", \"feb\", \"mar\", \"apr\", \"maj\", \"jun\", "
+"\"jul\", \"aug\", \"sep\", \"okt\", \"nov\", \"dec\" ]"
+
+#: admin/wes_metabox_posts.php:83
+#, fuzzy
+msgid "Choose Banner"
+msgstr "Vælg banner"
+
+#: admin/wes_metabox_posts.php:91
+#, fuzzy
+msgid "Choose a banner"
+msgstr "Vælg et banner"
+
+#: admin/wes_metabox_posts.php:121
+#, fuzzy
+msgid "Select publication dates"
+msgstr "Vælg udgivelsesdatoer"
+
+#: admin/wes_metabox_posts.php:126
+msgid "Start date"
+msgstr "Startdato"
+
+#: admin/wes_metabox_posts.php:130 admin/wes_metabox_posts.php:159
+msgid "m/d/Y"
+msgstr "m/d/Å"
+
+#: admin/wes_metabox_posts.php:144 admin/wes_metabox_posts.php:173
+#, fuzzy
+msgid "Format : "
+msgstr "Format :"
+
+#: admin/wes_metabox_posts.php:154
+msgid "End date"
+msgstr "Slutdato"
+
+#: admin/wes_metabox_posts.php:180
+#, fuzzy
+msgid "Or choose a premade banner"
+msgstr "Eller vælg et færdiglavet banner"
+
+#: admin/wes_metabox_posts.php:206
+#, fuzzy
+msgid "Generate banner"
+msgstr "Generer banner"
+
+#: admin/wes_metabox_posts.php:277 admin/wes_metabox_posts.php:287
+#, fuzzy
+msgid "%m/%d/%Y"
+msgstr "%m/%d/%Y"
+
+#. Description of the plugin/theme
+#: campaigndot.php:28
+#, fuzzy
+msgid ""
+"The CampaignDot plugin allow automatic creation of email signatures and a "
+"QRCode (Pro version) from the Wordpress user profile page. Corporate datas "
+"are also included in the email signature. A stats page allow you to check "
+"the relevance of your marketing campaign (Pro version)."
+msgstr ""
+"CampaignDot-pluginet giver mulighed for automatisk oprettelse af e-mail-"
+"signaturer og en QRCode (Pro-version) fra Wordpress-brugerprofilsiden. "
+"Virksomhedsdata er også inkluderet i e-mail-signaturen. En statistikside "
+"giver dig mulighed for at tjekke relevansen af din marketingkampagne (Pro-"
+"version)."
+
+#: campaigndot.php:108
+#, fuzzy
+msgid ""
+"CampaignDotPro add more capabilities to CampaignDot plugin ! Visit <a "
+"href='http://campaigndot.com/'>the plugin site</a> for more infos."
+msgstr ""
+"CampaignDotPro tilføjer flere funktioner til CampaignDot-plugin! Besøg <a "
+"href='http://campaigndot.com/'>plugin-siden</a> for mere information."
+
+#: campaigndot.php:327
+#, fuzzy
+msgid "Send signatures by Email"
+msgstr "Send signaturer via e-mail"
+
+#: campaigndot.php:348 wes_signature.php:374
+#, fuzzy
+msgid "Your email signature"
+msgstr "Din e-mail-signatur"
+
+#: campaigndot.php:362
+#, fuzzy, php-format
+msgid "%d Email signatures were sent."
+msgstr "%d E-mail-signaturer blev sendt."
+
+#: campaigndot.php:411
+#, fuzzy
+msgid ""
+"WP Email Signature plugin activated. You use Oxygen builder, two necessary "
+"pages (campaigndot-profile and campaigndot-templates) have been created for "
+"a better experience."
+msgstr ""
+"WP Email Signature plugin aktiveret. Du bruger Oxygen builder, to nødvendige "
+"sider (campaigndot-profile og campaigndot-templates) er blevet oprettet for "
+"en bedre oplevelse."
+
+#: include/utilities/signatures/Banner.php:22
+#: template/signatures/2columns.php:141 template/signatures/Block.php:87
+#: template/signatures/Minima.php:89 template/signatures/hubspoot.php:171
+#: template/wes_banner.php:59
+msgid "See"
+msgstr "Se"
+
+#: template/signatures/2columns.php:63 template/signatures/2columns.php:84
+#: template/signatures/hubspoot.php:51
+msgid "Phone : "
+msgstr "Telefon: "
+
+#: template/signatures/2columns.php:94
+#, fuzzy
+msgid "GSM : "
+msgstr "GSM :"
+
+#: template/signatures/2columns.php:103 template/signatures/Smartphone.php:56
+msgid "Email : "
+msgstr "E-mail: "
+
+#: template/signatures/2columns.php:111 template/signatures/Smartphone.php:60
+msgid "Website : "
+msgstr "EUR sidste år: "
+
+#: template/signatures/Smartphone.php:38 template/signatures/Smartphone.php:45
+#, fuzzy
+msgid "T. : "
+msgstr "T. :"
+
+#: template/signatures/Smartphone.php:52
+#, fuzzy
+msgid "Mobile : "
+msgstr "Mobil :"
+
+#: template/wes_author.php:342
+#, fuzzy
+msgid "Download the vCard"
+msgstr "Download vCard'et"
+
+#: template/wes_author.php:353
+#, fuzzy
+msgid "Flash this Qrcode to display this virtual business card on your screen."
+msgstr "Flash denne Qrcode for at vise dette virtuelle visitkort på din skærm."
+
+#: template/wes_templates.php:403
+#, fuzzy
+msgid ""
+"Email signature kindly generated by <a href=\"https://www.campaigndot.com\" "
+"target=\"_blank\">CampaignDot</a>"
+msgstr ""
+"E-mail signatur venligst genereret af <a href=\"https://www.campaigndot."
+"com\" target=\"_blank\">CampaignDot</a>"
+
+#: wes_signature.php:37
+#, fuzzy, php-format
+msgid "Unable to create %s directory."
+msgstr "Kunne ikke oprette mappen %s."
+
+#: wes_signature.php:270
+#, fuzzy
+msgid "Your Email signature"
+msgstr "Din e-mail-signatur"
+
+#: wes_signature.php:274
+#, fuzzy
+msgid ""
+"Simply copy the signature and paste it in your preferences/signatures/ panel"
+msgstr ""
+"Du skal blot kopiere signaturen og indsætte den i dine præferencer/"
+"signaturer/-panelet"
+
+#: wes_signature.php:282
+msgid "View online"
+msgstr "Se online"
+
+#: wes_signature.php:406
+#, fuzzy
+msgid "Signatures templates"
+msgstr "Skabeloner til underskrifter"
+
+#: wes_signature.php:509
+#, fuzzy
+msgid "Please fill the first name and last name fields for this user"
+msgstr "Udfyld venligst felterne med fornavn og efternavn for denne bruger"
+
+#: wes_signature.php:511
+#, fuzzy
+msgid "Set the company information: logo, website address, phone number."
+msgstr ""
+"Indstil virksomhedsoplysningerne: logo, hjemmesideadresse, telefonnummer."
+
+#: wes_signature.php:539
+#, fuzzy
+msgid "Send this signature by email"
+msgstr "Send denne signatur via e-mail"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "campaignDot"
+msgstr "campaignDot"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://campaigndot.com"
+msgstr "http://campaigndot.com"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.campaigndot.com/"
+msgstr "http://www.campaigndot.com/"

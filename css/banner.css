@@ -1,0 +1,416 @@
+/* @override 
+	http://www.webocube.com/wp-content/plugins/campaigndot/css/banner.css?ver=4.7.3
+	http://www.webocube.com/wp-content/plugins/campaigndot/css/banner.css?ver=df90e39fbb9c977a1ae2ade22f030b55 */
+
+/*
+	Title: Webocube Banner Designer styles
+	Author: 
+	Description: Styles for banner design area
+*/
+
+/******************************************
+*   General Structure                         
+******************************************/
+
+.wpbd_openbanner {
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.wpbd_openbanner i.fa{
+	margin-right: 5px;
+}
+  
+.wpbd_banner{
+	margin-right: auto;
+	margin-left: auto;
+	width:468px; 
+	height:auto;
+	display: block;
+	overflow: hidden;
+	/* text-align: center; */
+	position: relative;
+	background-color: rgba(69, 78, 83, 0.99);
+	z-index: 100;
+}
+
+.wpbd_banner .wpbd_post_title {
+	color: #ffffff;
+	
+	font-weight: 500;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	transition: font-size 1s ease-in-out;
+	cursor: move;
+	float: left;
+	position: absolute;
+}
+
+div.wpbd_banner_preview {
+    width: 468px;
+    height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+#wpbd_title,
+#wpbd_logo{
+	background-image: none;
+	transition: width .05s ease-in-out;
+	position: absolute;
+	box-sizing: content-box;
+	z-index: 200;
+}
+
+#wpbd_logo{
+    top: 0;
+    left: 234;
+    display: none;
+    cursor: move;
+    float: right;
+}
+
+#wpbd_title.ui-draggable.ui-resizable{
+	padding: 1px 5px;
+	border-style: none;
+}
+
+#wpbd_title.wpbd_post_title:hover,
+{
+	padding-top: 0;
+	padding-right: 5px;
+	padding-left: 4px;
+	border: 1px solid rgba(237, 103, 180, 0.59);
+	cursor: move;
+}
+
+#wpbd_title.ui-draggable.ui-resizable.outline,
+#wpbd_title.ui-draggable.ui-resizable.outline:hover
+{
+	border: 1px solid rgba(103, 171, 237, 0.59);
+	padding-left: 4px;
+	padding-top: 0;
+}
+
+
+img#wpbd_post_image{
+	transition: width .3s ease-in-out;
+	opacity: 1;
+	float: left;
+	position: absolute;
+	/* position: relative; */
+	box-sizing: content-box;
+	left: 0;
+	top: 0;
+}
+
+img#wpbd_post_image:hover{
+cursor: move;
+}
+
+/*Resize*/
+
+.resize, .resizeimage{
+	text-align: center;
+	display: none;
+}
+
+
+.resize li, .resizeimage li{
+	list-style: none;
+	display: inline-block;
+}
+.resize label, .resizeimage label{
+	font-size: 10px;
+}
+
+.minicolors{
+	margin-top: 10px;
+}
+
+#wpbd_preview_button {
+	margin-top: 8px;
+	margin-bottom: 0;
+	padding: 6px 18px;
+	font-size: 13px;
+		line-height: 20px;
+		color: #333;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+		vertical-align: middle;
+		cursor: pointer;
+		background-color: #f5f5f5;
+		border: 1px solid #ccc;
+		border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		border-bottom-color: #b3b3b3;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#wpbd_preview_button:hover{
+	background-color: #73b0a4;
+	color: #FFF;
+}
+
+.minicolors-input {
+	width: 150px!important;
+	padding-bottom: 5px;
+}
+
+.minus, .plus, .minusimage, .plusimage {
+	display: inline-block;
+	color: #666;
+	cursor: pointer;
+	font-size: 19px;
+	padding: 0 2px;
+}
+
+.minus:hover, .plus:hover, .minusimage:hover, .plusimage:hover{
+	color: #73b0a4;
+}
+
+.wpbd_editbox{
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+#wpbd_banner_gauche{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+}
+
+.resizeimage input[type=radio] {
+    display:none;
+}
+
+.resizeimage input[type=radio] + label,
+li.plus_minus,
+.wpbd_logo_checkbox,
+.minicolors
+ {
+	display:inline-block;
+	margin-top: 8px;
+	margin-bottom: 0;
+	padding: 1px 8px;
+	font-size: 11px;
+		line-height: 20px;
+		color: #333;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+		vertical-align: middle;
+		cursor: pointer;
+		background-color: #f5f5f5;
+		border: 1px solid #ccc;
+		border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		border-bottom-color: #b3b3b3;
+	margin-right: 2px;
+}
+.minicolors {
+    margin-top: 8px !important;
+}
+
+input[type=radio]:checked + label {
+		 background-image: none;
+		outline: 0;
+}
+
+
+
+.wpbd_banner_gauche img#wpbd_post_image{
+	position: absolute;
+	height: 60px;
+	width: auto;
+	left: 0;
+	transition: all .4s ease-in-out;
+}
+
+.wpbd_banner_gauche .wpbd_post_title{
+	position: absolute;
+	left: 110px;
+	top: 20px;
+		font-size: 12px;
+			transition: all .4s ease-in-out;
+}
+
+.wpbd_banner_centre img#wpbd_post_image{
+	position: absolute;
+	left: 0;
+	width: 468px;
+	height: auto;
+	transition: all .4s ease-in-out;
+	
+}
+.wpbd_banner_centre .wpbd_post_title{
+	position: absolute;
+	top: 15px;
+	font-size: 20px;
+	left: 20px;
+	transition: all .4s ease-in-out;
+	
+}
+.wpbd_banner_droite img#wpbd_post_image{
+	position: absolute;
+	height: 60px;
+	width: auto;
+	right: 0;
+	transition: all .4s ease-in-out;
+	top: 0;
+}
+.wpbd_banner_droite .wpbd_post_title{
+	position: absolute;
+	top: 20px;
+	font-size: 12px;
+	left: 20px;
+	transition: all .4s ease-in-out;
+	
+}
+
+.wpbd_banner #wpbd_logo img:hover,
+.wpbd_banner img{
+transition: none!important;
+transform: none;
+}
+
+/* Ajouts Gérald */
+
+.iphone-toggle-buttons ul{
+	margin-bottom: 0;
+	width: 80%;
+}
+
+.iphone-toggle-buttons li{
+	display: inline-block;
+}
+.iphone-toggle-buttons li label{
+	background-color: #cacaca;
+	padding: 8px 10px 8px 18px;
+	color: #FFF;
+	font-weight: bold;
+	margin-right: 10px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	  cursor: pointer;
+}
+.iphone-toggle-buttons li label:hover{
+	background-color: #96bd0f;
+}
+
+.iphone-toggle-buttons li input[type="radio"]{
+    visibility:hidden;
+	display: none;
+}
+.iphone-toggle-buttons input[type="radio"]:checked+label{
+	background-color: #96bd0f;
+		  cursor: default;
+	
+}
+#wes_dynamode{
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 0 8px 8px 8px;
+-webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+box-shadow: 10px 10px 20px 0px rgb(0,0,0,0.2);
+
+}
+td.cpd_post{
+	width: 510px;
+}
+td.cpd_post a{
+	margin-left: 10px;
+}
+
+#wes_dynamode  h3.cpd_posts_title{
+	margin-bottom: 0;
+	border-top: 1px dotted #cacaca;
+	padding-top: 10px;
+}
+
+#wes_dynamode  table.form-table img{
+	width: 200px;
+}
+#wes_dynamode  table.form-table th{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 200px;
+}
+#wes_dynamode  table.form-table td{
+	padding: 5px 0 4px;
+}
+#wes_dynamode  table.form-table tr{
+	border-top: 1px dotted #cacaca;
+}
+
+#wes_dynamode  td.cpd_post a{
+	font-weight: bold;
+	text-decoration: none;
+}
+#wes_statmode{
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 0 8px 8px 8px;
+-webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+box-shadow: 10px 10px 20px 0px rgb(0,0,0,0.2);
+
+}
+
+#wes-banner-metabox div.inside li {
+	list-style: none;
+}
+
+.wes_current_banner {
+	background-color: #fefabf;
+}
+
+.wes_banner_date {
+	font-weight: 600;
+	width: 122px;
+}
+
+.wes_post_date {
+	font-weight: 400;
+}
+
+.choose_bannere {
+	float: left;
+	margin-right: 10px;
+	width: 30px;
+	padding-top: 19px;
+}
+
+#wes_banner_uploading {
+	display: inline-block;
+	width: 80%;
+}
+
+div.cpt_date_label {
+	width: 120px;
+	display: inline-block;
+}
+
+div.cpt_date_input {
+	display: inline-block;
+	margin-bottom: 5px;
+
+}
+div.cpt_date_input input{
+	background-color: #f5f5f5;
+	color: #333333;
+	font-size: 13px;
+	font-weight: bold;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #cacaca;
+	padding: 8px;
+}
+div.cpt_date_input input:hover{
+	background-color: #e7e1a1;
+}
